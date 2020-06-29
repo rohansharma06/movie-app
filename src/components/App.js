@@ -2,6 +2,7 @@ import React from 'react';
 import {data} from '../data';
 import Navbar from './Navbar';
 import MovieCard from './MovieCard';
+import { addMovies } from '../actions';
 
 class App extends React.Component {
 
@@ -16,16 +17,13 @@ class App extends React.Component {
     })
 
     //---- dispatch action
-    store.dispatch({
-      type: 'ADD_MOVIES',
-      movies: data
-    });
+    store.dispatch(addMovies(data));
 
     console.log('STATE:',store.getState());
   }
   render() {
 
-    const movies = this.props.store.getState();
+    const { list } = this.props.store.getState(); //---- extract list of movies which is comming from reducers
     console.log("RENDER");
     return (
       <div className="App" >
@@ -40,7 +38,7 @@ class App extends React.Component {
 
           <div className="list">
               {/* map send every (element, index of element) in array  */}
-              { movies.map( (movie,index) =>(
+              { list.map( (movie,index) =>(
                 <MovieCard movie ={movie} key={`movies-${index}`} />
               ) ) }
           </div>
