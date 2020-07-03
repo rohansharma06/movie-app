@@ -11,7 +11,7 @@ const initialMoviesState = {
     showFavourites: false
 }
 export function movies (state = initialMoviesState, action) {
-    console.log("MOVIES REDUCER");
+    //console.log("MOVIES REDUCER");
     // if(action.type === ADD_MOVIES) {
     //     return {
     //         ...state, //--- spread operation on obj (add all state data i.e (list,fav))
@@ -55,7 +55,7 @@ const initialSearchState = {
     result : {}
 };
 export function search(state = initialSearchState, action ){
-    console.log("SEARCH REDUCER");
+    //console.log("SEARCH REDUCER");
     return state;
 }
 
