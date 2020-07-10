@@ -1,17 +1,24 @@
 # Movie-App
 
-A place from where you can view details of the different movies and its IMDB rating. Use ca also set the movie to its Favourite and also can remove it from there.
+A place from where you can view details of the different movies and its IMDB rating. User can also set the movie to its Favourite and also can remove it from there.
 
-This project is built using React.js.
+This project is built using React.
+
+` API used: ` (http://www.omdbapi.com/)
 ## ScreenShorts:
 
 ` HomePage: `
+
     ![Homepage](/images/home.JPG)
 
+
 ` Search: `
+
     ![Search](/images/search.JPG)
 
+
 ` Favourites Page: `
+
     ![Search](/images/favourite.JPG)
 
 
@@ -24,7 +31,7 @@ This project is built using React.js.
 
     ```
 5. Run command: `npm start`
-6. Go to https://localhost/8000 to use the application.
+6. Go to https://localhost/3000 to use the application.
 7. Happy Learning 
 
 
