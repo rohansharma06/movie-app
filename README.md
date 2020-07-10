@@ -8,15 +8,18 @@ This project is built using React.
 ## ScreenShorts:
 
 ` HomePage: `
-    ![Homepage](/images/home.JPG)
+
+![Homepage](/images/home.JPG)
 
 
 ` Search: `
-    ![Search](/images/search.JPG)
+
+![Search](/images/search.JPG)
 
 
 ` Favourites Page: `
-    ![Search](/images/favourite.JPG)
+
+![Favourites](/images/favourite.JPG)
 
 
 ## Getting Started
